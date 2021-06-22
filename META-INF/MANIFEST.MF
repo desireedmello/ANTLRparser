@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Trial
+Bundle-SymbolicName: Assignment1SE
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: Trial
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Require-Bundle: org.eclipse.jdt;bundle-version="3.18.700",
+ org.eclipse.jdt.core;bundle-version="3.25.0",
+ org.eclipse.core.resources;bundle-version="3.14.0",
+ org.eclipse.core.runtime;bundle-version="3.20.100"
