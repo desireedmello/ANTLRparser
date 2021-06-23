@@ -70,7 +70,7 @@ public class Parser {
 				// Syntax for import statements
 				String import_name = id.getName().getFullyQualifiedName();
 
-				// Printing the import statements for first part of assignment
+				// Printing the import statements for first part
 				System.out.println("[" + count + "] " + import_name);
 
 				return true;
@@ -117,7 +117,7 @@ public class Parser {
 						// Increment counter
 						count++;
 
-						// Printing the list of variables for second part of assignment
+						// Printing the list of variables for second part
 						System.out.println(
 								"[" + count + "] Line Number: " + vline_number + " Variable Name: " + variable_name);
 
@@ -180,14 +180,13 @@ public class Parser {
 			}
 		});
 
-		// Printing the methods called for third part of assignment
+		// Printing the methods called for third part
 		for (String name : map.keySet()) {
 			System.out.println("Methods called on " + name + ": " + map.get(name));
 		}
-		/*
-		 * Printing the method call and Method Signature for fourth part of the
-		 * assignment
-		 */
+		
+		 // Printing the method call and Method Signature for fourth part
+		
 		System.out.println();
 
 		for (int i = 0; i < method_call.size(); i++) {
