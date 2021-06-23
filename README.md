@@ -1,6 +1,16 @@
 # ANTLRparser
 ANTLR parser used to scan JAVA source code for different brances of the tree node using AST view.
 
+# Output Displayed from Code
+
+1. Prints the import statements of the file.
+
+2. Prints the variables declared in the method body along with the line number.
+
+3. Prints the methods called on the variables.
+ 
+4. For each method call, prints the method signature declared on the same class. If the method is not declared on the same class, prints UNKNOWN.
+
 ## Instructions to run the code and generate the output:
 
 1. Coding is done in Eclipse JDT with the ASTParser to parse the sample test code.
