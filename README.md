@@ -8,20 +8,20 @@ ANTLR parser used to scan JAVA source code for different brances of the tree nod
 2. This Eclipse project is a plug-in project.
 
 3. For the build path please add the below jar files from the ANTLRparser project- lib folder to the Libraries- Classpath
-    commons-collections4-4.1.jar,
-    commons-io-2.8.0.jar 
+   * commons-collections4-4.1.jar,
+   * commons-io-2.8.0.jar 
 
 4. In the ANTLRparser project- META-INF folder- MANIFEST.MF file add the following to the Dependencies:
 
-    org.eclipse.jdt (3.18.700),
-    org.eclipse.jdt.core (3.25.0),
-    org.eclipse.core.resources (3.14.0),
-    org.eclipse.core.runtime (3.20.100)
+   * org.eclipse.jdt (3.18.700),
+   * org.eclipse.jdt.core (3.25.0),
+   * org.eclipse.core.resources (3.14.0),
+   * org.eclipse.core.runtime (3.20.100)
 
 5. Codes are in the ANTLRparser project- src folder- example package-
-ArrangeSample.java (Sample test code) (2021 BeginnersBook),
-JFrameExample.java (Sample test code),
-Parser.java (Source code)
+    * ArrangeSample.java (Sample test code) (2021 BeginnersBook),
+    * JFrameExample.java (Sample test code),
+    * Parser.java (Source code)
 
 6. Please change the file path if using another source code in String content [line 48-49] in the Parser.java class.
 
