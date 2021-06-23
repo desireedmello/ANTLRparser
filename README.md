@@ -1,7 +1,7 @@
 # ANTLRparser
 ANTLR parser used to scan JAVA source code for different brances of the tree node using AST view.
 
-# Instructions to run the code and generate the output:
+## Instructions to run the code and generate the output:
 
 1. Coding is done in Eclipse JDT with the ASTParser to parse the sample test code.
 
@@ -33,7 +33,7 @@ ANTLR parser used to scan JAVA source code for different brances of the tree nod
 
 10. To run the code in eclipse please run it from the Parser.java class and check the output in the eclipse console.
 
-# References
+### References
 
 2021 BeginnersBook. Java Program to Sort Strings in an Alphabetical Order.
 Retrieved May 21, 2021, https://beginnersbook.com/2018/10/java-program-to-sort-strings-in-an-alphabetical-order/
