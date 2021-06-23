@@ -1,7 +1,7 @@
 # ANTLRparser
 ANTLR parser used to scan JAVA source code for different brances of the tree node using AST view.
 
-## Output Generated from Parser.java
+## Output Generated from Source Code:
 
 1. Prints the import statements of the file.
 
